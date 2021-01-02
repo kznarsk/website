@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+	<body>
+		<p>Presenting you a completely ad and cookie free website: <a href="nl/index.html"><img src="nl.png" width=50></a></p>
+		<h1>Kznarsk!</h1>
+
+		<p>Kznarsk functions as my personal website where I publish everything I have made in my free time that I find interesting enough to share with the entire world. This includes programs that I have written, but also things that are more creative like stories and plays.</p>
+		<h2>Language</h2>
+		<p>Because I live in the Netherlands a lot of my published work is in Dutch, so it would be pointless to share my Dutch work on an English site. If you would like to see everything that I have published in Dutch go to my dutch site by clicking on the Dutch flag.</p>
+		<h2> 
+			Abterra I minecraft computer
+		</h2>
+		<p>This is a project where I have been working on since the summer of 2019 and have been working on untill april 2020. It is a minecraft computer that I built without the use of any command blocks.<br>
+		<a href="abterra/index.html">Read more</a>
+		<h2>AsciiMind</h2>
+		<p>This is a commandline game based on the classic board game "Mastermind". It differs in that instead of colours it uses ascii characters. This is nice, because there are more ascii characters than distinguishable colours. What is also neat is that after every guess you make you see how many possible answers there are left.<br>
+		<a href="ascii_mind/index.html">Read more</a>
+	</body>
+</html>
