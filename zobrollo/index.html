@@ -8,15 +8,15 @@
 	<body>
 		<h1>Zobrollo</h1>
 		<p><a href="../index.html">Go back to main page</a><br>
-		Zobrollo is a 2d minimalistic top-view racing game programmed in C using the <a href="https://liballeg.org">Allegro</a> library. At this point of development you can only play in time trial. The game also has a record keeping system and you can save a race you have played and race against your older selve.</p>
-		<h2>Installation</h2>
-		On a Unix based system you will first need to compile the source code. You can get the source code by downloading the zip file or cloning it from my <a href="https://github.com/kznarsk/zobrollo">github</a>. You should also make sure you have <a href="https://liballeg.org">Allegro</a> installed. Then go to the directory of the source and run make. If everything went well an executable will appear that you can run. At the moment I haven't tried compiling for windows, so it will probably not work. This I intend to change in the future.
-		<h2>Running the game</h2>
-		To play the game you have to specify the track you want to play on. At the moment there are only two tracks <i>Long Straight</i> and <i>example</i>. You can find these files in the directory of the source. On a Unix based system you can run the game by going to the directory of executable and running the comand: <i>./race [OPTIONS] [Track file]</i>. You should replace <i>[Track file]</i> by the path of the track. Then there are some optional flags you can use:<ul>
-
-		<li><i>-r [record file]</i>: Reads and writes records to <i>record file</i></li>
-		<li><i>-s [ghost file]</i>: Store the race you are currently playing in <i>ghost file</i>.</li>
-		<li><i>-p [ghost file]</i>: Race against the ghost stored in <i>ghost file</i>.</li></ul>
+		Zobrollo is a 2d minimalistic top-view racing game programmed in C using the <a href="https://liballeg.org">Allegro</a> library. At this point of development you can only play in time trial.</p>
+		<h2>How to build</h2>
+		You will first need to compile the source code. You can get the source code by downloading the zip file or cloning it from <a href="https://github.com/kznarsk/zobrollo">github</a>. You should also make sure you have <a href="https://liballeg.org">Allegro</a> installed. Then go to the directory of the source and run:</p> 
+		<i>make</i>
+		<p> If everything went well an executable will appear that you can run. At the moment I haven't tried compiling for windows, so it will probably not work. This I intend to change in the future.
+		<h2>How to run</h2>
+		<p>On UNIX-like operating systems use:</p>
+		<i>./zobrollo</i>
+		<p>This should start the game. You should keep the file `zobrollo` in this directory as this is also the place where the tracks and sprites that the program uses are stored.</p>
 
 		<h2>Downloads</h2>
 		<table>
@@ -28,25 +28,40 @@
 			</tr>
 			<tr>
 				<td>Zobrollo source</td>
-				<td><a href="https://www.kznarsk.xyz/Zobrollo/Zobrollo_v0.0.0.zip"download>Zobrollo_v0.0.0.zip</a></td>
-				<td>Zip file that contains the source of Zobrollo.</td>
-				<td>131K</td>
+				<td><a href="https://www.kznarsk.xyz/zobrollo/Zobrollo_v0.1.0.zip"download>Zobrollo_v0.1.0.zip</a></td>
+				<td>Zip file that contains the source of Zobrollo version 0.1.0.</td>
+				<td>283k</td>
 			</tr>
 		</table>
+		<h2>Controls</h2>
+		<table>
+			<tr><td>UP</td><td>Accelerate</td></tr>
+			<tr><td>DOWN</td><td>Break</td></tr>
+			<tr><td>LEFT</td><td>Steer left</td></tr>
+			<tr><td>RIGHT</td><td>Steer right</td></tr>
+
+			<tr><td>ESCAPE</td><td>Go back to main menu</td></tr>
+			<tr><td>F11</td><td>Toggle full screen</td></tr>
+		</table>
+
+
 		<h2>Help!! I don't understand the steps you just described.</h2>
 		In this case there is no need to worry. Because I would be more than glad to help you as I probably have too much free time anyway. Just send me an <a href="mailto:thomas.v.maaren@outlook.com">E-mail</a>.
 		<h2>To-do list</h2>
-		This is a list features that I intend to add in the forseeable future. I've ordered it in order of when I intend to implement them:
+		This is a list features that I intend to add in the foreseeable future. I've ordered it in order of when I intend to implement them:
 		<ol>
-			<li>Make it possible to start the game in a menu where you can select a track and then play it. Making it easier for normies.</li>
 			<li>Windows support.</li>
 			<li>Be able to view records from a graphical interface.</li>
 			<li>Be able to store, replay and race against ghosts from a graphical interface.</li>
 			<li>Add more tracks.</li>
+			<li>Be able to change controls in config file</li>
 			<li>Be able to race against each other on a local network. I already have a working test for this I just haven't properly implemented it yet.</li>
 			<li>Be able to race with anyone in the world. For this I will need to write server-side software.</li>
 			<li>A settings menu.</li>
 		</ol>
+		<h2>Screenshots</h2>
+		Click on the images to view them.
+		<p><a href="https://www.kznarsk.xyz/zobrollo/example.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20example.png" width=250><a href="https://www.kznarsk.xyz/zobrollo/menu.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20menu.png" width=250><a href="https://www.kznarsk.xyz/zobrollo/Long%20Straight.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20Long%20Straight.png" width=250>
 			
 	</body>
 	</head>
