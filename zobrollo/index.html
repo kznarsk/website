@@ -12,14 +12,18 @@
 		<h2>Screenshots</h2>
 		Click on the images to view them.
 		<p><a href="https://www.kznarsk.xyz/zobrollo/example.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20example.png" width=250><a href="https://www.kznarsk.xyz/zobrollo/menu.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20menu.png" width=250><a href="https://www.kznarsk.xyz/zobrollo/Long%20Straight.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20Long%20Straight.png" width=250></a>
-		<h2>How to build</h2>
-		You will first need to compile the source code. You can get the source code by downloading the zip file or cloning it from <a href="https://github.com/kznarsk/zobrollo">github</a>. You should also make sure you have <a href="https://liballeg.org">Allegro</a> installed. Then go to the directory of the source and run:</p> 
-		<i>make</i>
-		<p> If everything went well an executable will appear that you can run.
+		<h2>How to build/install</h2>
+		You will first need to compile the source code. You can get the source code by downloading it from this page or by cloning it from <a href="https://github.com/kznarsk/zobrollo">github</a>. You should also make sure you have <a href="https://liballeg.org">Allegro</a> installed. Then go to the directory of the source and run:</p> 
+		<i>sudo make install</i>
+		<h2> Setting up font</h2>
+		<p>You will probably need to change the location of the font, before you can run the game. This you do by changing line 1 of `/usr/share/zobrollo/config.cfg`. By default this is the location of the font.</p>
+		<i>/usr/share/fonts/TTF/DejaVuSansCondensed-Bold.ttf</i>
+		<p>This is where this font is stored on Arch Linux. It is probably in a different location on your OS. For Debian for example it is stored here.</p>
+		<i>/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf</i>
 		<h2>How to run</h2>
 		<p>On UNIX-like operating systems use:</p>
-		<i>./zobrollo</i>
-		<p>This should start the game. You should keep the file `zobrollo` in this directory as this is also the place where the tracks and sprites that the program uses are stored.</p>
+		<i>zobrollo</i>
+		<p>This should start the game.
 
 		<h2>Downloads</h2>
 		<table>
@@ -30,16 +34,28 @@
 				<th>Size</th>
 			</tr>
 			<tr>
-				<td>Zobrollo source zip</td>
-				<td><a href="zobrollo_v0.1.1.zip"download>zobrollo_v0.1.1.zip</a></td>
-				<td>Zip file that contains the source of the newest version of Zobrollo.</td>
-				<td>933K</td>
+				<td>Zobrollo source archive</td>
+				<td><a href="zobrollo-0.1.2.tar.gz"download>zobrollo_v0.1.2.tar.gz</a></td>
+				<td>Archive that contains the source of the newest version of Zobrollo.</td>
+				<td>643K</td>
 			</tr>
 			<tr>
-				<td>Zobrollo source archive</td>
-				<td><a href="zobrollo_v0.1.1.tar.gz"download>zobrollo_v0.1.1.tar.gz</a></td>
-				<td>Archive that contains the source of the newest version of Zobrollo.</td>
+				<td>Zobrollo source zip</td>
+				<td><a href="zobrollo-0.1.2.zip"download>zobrollo_v0.1.2.zip</a></td>
+				<td>Zip file that contains the source of the newest version of Zobrollo.</td>
+				<td>659K</td>
+			</tr>
+			<tr>
+				<td>Zobrollo 0.1.1 source archive</td>
+				<td><a href="https://www.kznarsk.xyz/zobrollo/zobrollo_v0.1.1.tar.gz"download>Zobrollo_v0.1.1.tar.gz</a></td>
+				<td>Archive file that contains the source of Zobrollo version 0.1.1.</td>
 				<td>915K</td>
+			</tr>
+			<tr>
+				<td>Zobrollo 0.1.1 source zip</td>
+				<td><a href="https://www.kznarsk.xyz/zobrollo/zobrollo_v0.1.1.zip"download>Zobrollo_v0.1.1.zip</a></td>
+				<td>Zip that contains the source of Zobrollo version 0.1.1.</td>
+				<td>933K</td>
 			</tr>
 			<tr>
 				<td>Zobrollo 0.1.0 source</td>
