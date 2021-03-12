@@ -8,13 +8,13 @@
 	<body>
 		<h1>Zobrollo</h1>
 		<p><a href="../index.html">Go back to main page</a><br>
-		Zobrollo is a 2d minimalistic top-view racing game programmed in C using the <a href="https://liballeg.org">Allegro</a> library. At this point of development you can only play in time trial.</p>
-		<h2>Screenshots</h2>
+		Zobrollo is a 2d minimalistic top-view racing game programmed in C using the <a href="https://liballeg.org">Allegro</a> library. At this point of development you can only play in time trial. It also keeps of track of records you have made.</p>
+		<h2 style="border-top-style: solid; border-width: 2px">Screenshots</h2>
 		Click on the images to view them.
 		<p><a href="https://www.kznarsk.xyz/zobrollo/example.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20example.png" width=250><a href="https://www.kznarsk.xyz/zobrollo/menu.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20menu.png" width=250><a href="https://www.kznarsk.xyz/zobrollo/Long%20Straight.png"><img src="https://www.kznarsk.xyz/zobrollo/small%20Long%20Straight.png" width=250></a></p>
 
-		<h2>How to install</h2>
-		<h3>GNU/Linux</h3>
+		<h2 style="border-top-style: solid; border-width: 2px">How to install</h2>
+		<h2 style="border-top-style: dotted; border-width: 2px">GNU/Linux</h3>
 		The installation process is different per distribution.
 		<table>
 			<td>
@@ -32,7 +32,7 @@
 				<li>Download the .deb file</li>
 				<li>Install it as follows:</li>
 				Go to the directory you downloaded it to and run the command:<br>
-				<i>sudo dpkg -i  zobrollo-0.1.2_amd64.deb</i></li>
+				<i>sudo dpkg -i  zobrollo-0.2.0_amd64.deb</i></li>
 				<li>You must also install the dependencies. You do this by running this command directly after the previous command.<br>
 				<i>sudo apt-get -f install</i>
 				<li>Run the comand `zobrollo` in your terminal and the game should start</li>
@@ -49,11 +49,11 @@
 			</tr>
 			<tr>
 				<td>Package for the newest verision of Zobrollo for Debian/Ubuntu</td>
-				<td><a href="zobrollo-0.1.2_amd64.deb">zobrollo-0.1.2_amd64.deb</a></td>
-				<td>54K</td>
+				<td><a href="zobrollo-0.2.0_amd64.deb">zobrollo-0.2.0_amd64.deb</a></td>
+				<td>60K</td>
 			</tr>
 		</table>	
-		<h3>Windows</h3>
+		<h2 style="border-top-style: dotted; border-width: 2px">Windows</h3>
 		<ol>
 			<li>Download the installer.</li>
 			<li>Run the installer.</li>
@@ -68,39 +68,40 @@
 			</tr>
 			<tr>
 				<td>Installer for the newest version of Zobrollo for windows.</td>
-				<td><a href="zobrollo-0.1.2.msi">zobrollo-0.1.2.msi</a></td>
-				<td>6.0M</td>
+				<td><a href="zobrollo-0.2.0.msi">zobrollo-0.2.0.msi</a></td>
+				<td>6.5M</td>
 			</tr>
 		</table>	
 
-		<h3>Other platforms</h3>
+		<h2 style="border-top-style: dotted; border-width: 2px">Other platforms</h3>
 
 		You will need to <a href=build/index.html>build it</a> yourselve.
-		<h2>How to build</h2>
+		<h2 style="border-top-style: solid; border-width: 2px">How to build</h2>
 
 		<p>Go to <a href="build/index.html">this page</a> to read how you can build zobrollo yourselve.<p>
-		<h2>Controls</h2>
+		<h2 style="border-top-style: solid; border-width: 2px">Controls</h2>
 		<table>
 			<tr><td>UP</td><td>Accelerate</td></tr>
 			<tr><td>DOWN</td><td>Break</td></tr>
 			<tr><td>LEFT</td><td>Steer left</td></tr>
 			<tr><td>RIGHT</td><td>Steer right</td></tr>
+			<tr><td>-</td><td>Zoom out</td></tr>
+			<tr><td>=</td><td>Zoom in</td></tr>
 
 			<tr><td>ESCAPE</td><td>Go back to main menu</td></tr>
 			<tr><td>F11</td><td>Toggle full screen</td></tr>
 		</table>
-		<h2>License</h2>
+		<h2 style="border-top-style: solid; border-width: 2px">License</h2>
 		This program is licensed under GPLv3.
 
-		<h2>To-do list</h2>
+		<h2 style="border-top-style: solid; border-width: 2px">To-do list</h2>
 		This is a list features that I intend to add in the foreseeable future. I've ordered it in order of when I intend to implement them:
 		<ol>
-			<li>Be able to view records from a graphical interface.</li>
 			<li>Be able to store, replay and race against ghosts from a graphical interface.</li>
 			<li>Add more tracks.</li>
-			<li>Be able to change controls in config file</li>
 			<li>Be able to race against each other on a local network. I already have a working test for this I just haven't properly implemented it yet.</li>
 			<li>Be able to race with anyone in the world. For this I will need to write server-side software.</li>
+			<li>Be able to change controls in config file</li>
 			<li>A settings menu.</li>
 		</ol><br><br><br><br><br><br>
 	</body>
